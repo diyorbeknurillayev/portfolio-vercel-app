@@ -15,3 +15,25 @@
     display: flex !important;
     justify-content: center !important;
 }
+
+.bg-gradient {
+    background: linear-gradient(180deg, transparent, #000);
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    top: 200px;
+    transition: all 0.3s ease;
+    padding: 27px;
+    color: #fff !important;
+}
+
+.gradient-bla {
+    position: relative;
+}
+
+.gradient-bla:hover > .bg-gradient {
+    top: 0;
+}
