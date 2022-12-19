@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button_222 {
+    box-shadow: 0 4px 25px #42a5f5;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    color: #6B7280 !important;
+    font-weight: 600 !important;
+}
+
+.css-jpln7h-MuiTabs-scroller {
+    display: flex !important;
+    justify-content: center !important;
+}
